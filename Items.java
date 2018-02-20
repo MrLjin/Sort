@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.Random;
 
 public class Items {
     public int num;
@@ -8,7 +9,8 @@ public class Items {
     public int range = 2147480022;
 
     public Items() {
-//        num = 1000000;
+//        num = 100;
+//        range = 100;
 //        items = new int[num];
 //        Random random = new Random();
 //        for (int i = 0; i < num; i++) {
